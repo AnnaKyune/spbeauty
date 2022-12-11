@@ -21,7 +21,7 @@ function PrimaryButton(props) {
     `;
     return (
         <Clickable>
-            <Button className='p-2 text-md'>
+            <Button className='p-2 text-md mt-2'>
                 {props.children}
             </Button>
         </Clickable>
