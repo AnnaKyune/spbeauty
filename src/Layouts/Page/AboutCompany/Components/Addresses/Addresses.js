@@ -15,7 +15,7 @@ function Addresses() {
         <Address className='d-inline-flex flex-column gap-2 col justify-content-between'>
             <div>
             <div className='title'>Адреса заведений</div>
-            <div className='d-inline-flex flex-column gap-3'>
+            <div className='d-inline-flex flex-column gap-3 mt-4'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
             </div>
