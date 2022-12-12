@@ -12,13 +12,16 @@ const Address = styled.div`
 
 function Addresses() {
     return (
-        <Address className='d-inline-flex flex-column gap-2 col'>
+        <Address className='d-inline-flex flex-column gap-2 col justify-content-between'>
+            <div>
             <div className='title'>Адреса заведений</div>
             <div className='d-inline-flex flex-column gap-3'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
-                <SecondaryButton>Добавить филиал</SecondaryButton>
             </div>
+            </div>
+                <SecondaryButton>Добавить филиал</SecondaryButton>
+            
         </Address>
     );
 }
